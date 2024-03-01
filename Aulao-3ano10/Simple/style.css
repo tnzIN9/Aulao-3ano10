@@ -8,19 +8,12 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 4vh;
     padding: 20px;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     font-family: "Poppins", sans-serif;
-    gap: 4vh;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2vh;
+    overflow-x: hidden;
 }
 
 h1{
@@ -29,22 +22,32 @@ h1{
 h2{
     font-weight: 400;
 }
- 
-.first{
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;  
+    height: auto;
+}
+
+section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2vh;
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
-    color:rgb(255, 255, 255);
+    background-color: rgb(19, 24, 36);
+    color: #ffff;
     padding: 20px;
+    border-radius: 10px;
+    height: auto;
 }
 
 input{
-    background-color: rgb(163, 167, 175);
-    color: white;
+    background-color: rgb(57, 60, 71);
+    color: #ffff;
     border: none;
     padding: 10px;
     border-radius: 999px;
@@ -52,15 +55,12 @@ input{
 }
 
 .btn1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 999px;
+    background-color: #ffff;
+    color: #090909;
     border: none;
+    padding:10px 30px;
+    border-radius: 999px;
     font-size: 1.2rem;
-    padding: 10px 30px;
     opacity: 0.8;
     font-weight: 700;
 }
@@ -69,3 +69,8 @@ input{
     cursor: pointer;
     opacity: 1;
 }
+
+.style-label{
+    color: red;
+}
+

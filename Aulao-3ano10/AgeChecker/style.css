@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 10vh;
+    overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(150, 112, 112);
+}
+    
+button{
+        background: none;
+        border: 2px solid rgb(255, 255, 255);
+        color:rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 999px;
+        opacity: 0.8;
+        transform:scale(1.5)
+    }
+    
+button:hover{
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+        opacity: 1;
+    }
+
+.oi{
+    border-radius: 999px;
+    border: 2px solid rgb(231, 16, 160);
+    padding: 10px;
+    border-radius: 999px;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
